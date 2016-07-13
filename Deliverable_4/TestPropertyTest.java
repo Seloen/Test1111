@@ -74,6 +74,24 @@ public class TestPropertyTest {
 					fail();
 				}
 		}
+		
+		//Property: last element of output array should always equals to or greater than size of input array.
+		//Considering of the case when every element is 1
+		@Test
+		public void testLastElementGreaterThanSizeOfInput() {
+
+			int[] input= PropertyTest.RandomGenerator();
+			int[] output= PropertyTest.billify(input);
+			int inputsize= input.length;
+			int outputsize= output.length;
+			boolean b = output[outputsize-1]>=inputsize; 
+			
+			try{
+				assertTrue(b);
+				}catch(NoSuchElementException nseex){
+					fail();
+				}
+		}
 	
 
 }

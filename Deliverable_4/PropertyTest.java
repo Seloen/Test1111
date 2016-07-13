@@ -8,11 +8,16 @@ public class PropertyTest {
 		int sum = 0;
 		
 		for(int i=0;i<length;i++){
-			newArr[i] = arr[i]*arr[i];
+			newArr[i] = squareIt(arr[i]);
 			sum = sum+ newArr[i];
 		}
 		newArr[length] = sum;
 		return newArr;
+	}
+	
+	public static int squareIt(int x){
+		int square=x*x;
+		return square;
 	}
 	
 	public static int[] RandomGenerator(){
