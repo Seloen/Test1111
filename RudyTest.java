@@ -12,6 +12,7 @@ public class RudyTest {
 		@Before
 		public void setUp() throws Exception {
 			driver.manage().deleteAllCookies();
+			//
 			driver.get("http://lit-bayou-7912.herokuapp.com");
 		}
 	
