@@ -14,6 +14,7 @@ public class RudyTest {
 			driver.manage().deleteAllCookies();
 			driver.get("http://lit-bayou-7912.herokuapp.com");
 			System.out.println("");
+			//111111111111111
 		}
 	
 		//User Story 1
