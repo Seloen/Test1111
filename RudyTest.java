@@ -13,6 +13,7 @@ public class RudyTest {
 		public void setUp() throws Exception {
 			driver.manage().deleteAllCookies();
 			driver.get("http://lit-bayou-7912.herokuapp.com");
+			System.out.println("");
 		}
 	
 		//User Story 1
