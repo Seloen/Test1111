@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="CitySim9002/src/|Deliverable_4/" kind="src" path=""/>
+	<classpathentry kind="src" path="CitySim9002/src"/>
+	<classpathentry kind="src" path="Deliverable_4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="CitySim9002/bin"/>
+</classpath>
